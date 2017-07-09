@@ -1,1 +1,3 @@
-tsc -p car
+```sh
+./compile
+```
