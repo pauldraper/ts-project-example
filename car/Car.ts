@@ -5,7 +5,7 @@ export default class Car {
     metal: Metal;
     wheels: Wheel[];
 
-    Car() {
+    constructor() {
       this.metal = new Metal;
       this.wheels = [,,,].map(_ => new Wheel(this.metal));
     }
