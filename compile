@@ -1,0 +1,5 @@
+#!/bin/sh -ex
+for project in metal wheel car; do
+  rm -f $project/*.js
+  tsc -p $project
+done
